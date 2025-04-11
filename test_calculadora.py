@@ -20,6 +20,9 @@ def test_divisao_por_zero():
 def test_calcular_soma():
     assert calcular("soma", 1, 1) == 2
 
+def test_calcular_soma():
+    assert calcular("soma", 1, 2) == 3
+
 def test_calcular_subtracao():
     assert calcular("subtrai", 5, 3) == 2
 
